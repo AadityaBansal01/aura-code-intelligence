@@ -113,7 +113,8 @@ def generate_presentation():
 
     # SLIDE 5 — Demo Walkthrough
     clear_and_fill(prs.slides[4].shapes[1].text_frame, [
-        ("How to run:", "Clone repo → `bash run.sh` → http://localhost:8000. No API keys, no GPU, no extra setup."),
+        ("Demo Access:", "Live App: https://aura-code-intelligence.onrender.com | Video: https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing"),
+        ("Local runner:", "`bash run.sh` → http://localhost:8000. Zero API keys, zero GPU, fully offline."),
         ("Query 1 — Structural:",
          "'Which files call requestPermissions before launchDeeplink?'  "
          "→  CPG order-index traversal. Returns navigation_agent.js (L21→28) and settings_agent.js (L22→28) in 0.58 ms."),
@@ -199,7 +200,7 @@ def generate_presentation():
     for q, ans in [
         ("Working prototype — public GitHub repo:",  "YES  ✓  (18/18 unit tests passing, Docker-ready, one-command startup)"),
         ("README with reproducible setup:",           "YES  ✓  (run.sh, Docker, benchmark & CLI docs all included)"),
-        ("Demo video (YouTube / Drive, max 5 min):", "YES  ✓  (Live dashboard — judges run via `bash run.sh` → http://localhost:8000)"),
+        ("Demo video (YouTube / Drive, max 5 min):", "YES  ✓  https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing"),
         ("Presentation file (PPT / PDF):",            "YES  ✓  (Thapar_TeamAURA_Submission.pptx — this deck)"),
         ("AI Usage Disclosure Form:",                 "YES  ✓  (LangAI3.0_AI_Disclosure.docx in /submission)"),
         ("Release tag on final commit:",              "YES  ✓  (PRISM_GENAI_HACKATHON_Y2026 tagged on GitHub)"),

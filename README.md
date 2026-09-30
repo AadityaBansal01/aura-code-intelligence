@@ -1,5 +1,6 @@
 # AURA-Code: Agentic Code Intelligence & AST-Graph Navigator
 
+> 🎬 **Demo Video:** https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing  
 > 🌐 **Live Demo:** https://aura-code-intelligence.onrender.com  
 > 📊 **API Docs:** https://aura-code-intelligence.onrender.com/docs  
 > 💻 **Local:** `bash run.sh` → http://localhost:8000
@@ -266,13 +267,15 @@ aura-code-intelligence/
 **Team Name:** Team AURA  
 **Hackathon Theme:** Theme 01 - Agentic Code Intelligence (Samsung PRISM GenAI Hackathon 3.0, 2026–27)  
 **Institution:** Thapar Institute of Engineering and Technology (TIET), Patiala  
-- **Aaditya Bansal** — Team Lead & Systems Architect (`aadityabansal740@gmail.com` | GitHub: [@AadityaBansal01](https://github.com/AadityaBansal01))  
-- **Team AURA Engineers** — Program Analysis, AST Graph, & Benchmark Verification  
+- **Aaditya Bansal** — Team Lead & Systems Architect (GitHub: [@AadityaBansal01](https://github.com/AadityaBansal01))  
+- **Arpita Girdhar** — Program Analysis & AST Graph Engineering  
+- **Trijal Mittal** — Backend Engine & Benchmark Verification  
+- **Jessica** — Fullstack Dashboard & Visualization  
 
 ---
 
 ## 🎥 5-Minute Demo Video Walkthrough
 
+- **Watch Technical Demo:** [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing)
 - **Detailed Minute-by-Minute Script & Storyboard:** [`submission/DEMO_VIDEO_SCRIPT.md`](submission/DEMO_VIDEO_SCRIPT.md)
-- **Demo Video Access:** [Watch 5-Minute Technical Demo on Google Drive / YouTube](https://drive.google.com/drive/folders/1g7H44ecwxfv7TPTFvQU14duMuGexMIQU) *(Recorded following the exact script in `submission/DEMO_VIDEO_SCRIPT.md`)*
 
