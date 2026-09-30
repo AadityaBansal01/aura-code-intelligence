@@ -1,4 +1,10 @@
 # AURA-Code: Agentic Code Intelligence & AST-Graph Navigator
+
+> 🌐 **Live Demo:** https://aura-code-intelligence.onrender.com  
+> 📊 **API Docs:** https://aura-code-intelligence.onrender.com/docs  
+> 💻 **Local:** `bash run.sh` → http://localhost:8000
+
+
 ### Samsung PRISM GenAI Hackathon 3.0 (2026–27) | Theme 01: Agentic Code Intelligence
 **Release Tag:** `PRISM_GENAI_HACKATHON_Y2026`  
 **Hardware Profile:** 100% CPU Optimized | Zero GPU Dependency | Pure Local Inference
@@ -190,7 +196,7 @@ AURA-Code automatically inspects execution paths for voice turn anti-patterns:
 
 ## 🛠️ REST API Reference
 
-FastAPI exposes full OpenAPI documentation at `http://localhost:8000/docs`:
+FastAPI exposes full OpenAPI documentation at `https://aura-code-intelligence.onrender.com/docs`:
 
 | Method | Endpoint | Description |
 | :--- | :--- | :--- |
