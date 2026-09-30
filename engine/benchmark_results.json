@@ -1,0 +1,281 @@
+{
+  "evaluation_timestamp": "2026-09-30T14:48:10Z",
+  "total_queries_tested": 15,
+  "metrics": {
+    "precision_at_1": 93.33,
+    "precision_at_3": 77.78,
+    "precision_at_5": 72.67,
+    "mean_recall": 93.33,
+    "mean_latency_ms": 0.64,
+    "median_latency_ms": 0.6,
+    "p95_latency_ms": 1.73
+  },
+  "indexing_cost": {
+    "indexing_time_ms": 11.1,
+    "graph_nodes": 109,
+    "graph_edges": 209,
+    "code_chunks": 60,
+    "hardware_platform": "CPU (Zero GPU required)"
+  },
+  "category_metrics": {
+    "Structural Sequence": {
+      "precision_at_1": 100.0,
+      "mean_recall": 100.0,
+      "mean_latency_ms": 0.2
+    },
+    "Usage & Deeplink": {
+      "precision_at_1": 100.0,
+      "mean_recall": 100.0,
+      "mean_latency_ms": 0.8
+    },
+    "Conceptual Semantic": {
+      "precision_at_1": 80.0,
+      "mean_recall": 80.0,
+      "mean_latency_ms": 0.9
+    }
+  },
+  "test_cases": [
+    {
+      "id": "SEQ-01",
+      "category": "Structural Sequence",
+      "query": "which files call tool requestPermissions before tool launchDeeplink?",
+      "expected": [
+        "agents/navigation_agent.js",
+        "agents/settings_agent.js"
+      ],
+      "retrieved": [
+        "agents/navigation_agent.js",
+        "agents/settings_agent.js",
+        "agents/settings_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.6
+    },
+    {
+      "id": "SEQ-02",
+      "category": "Structural Sequence",
+      "query": "where is checkConnectivity called before fetchEndpoint?",
+      "expected": [
+        "agents/smarthome_agent.js"
+      ],
+      "retrieved": [
+        "agents/smarthome_agent.js",
+        "agents/smarthome_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.13
+    },
+    {
+      "id": "SEQ-03",
+      "category": "Structural Sequence",
+      "query": "which files invoke checkPermissions before requestPermissions?",
+      "expected": [
+        "agents/navigation_agent.js",
+        "agents/settings_agent.js"
+      ],
+      "retrieved": [
+        "agents/navigation_agent.js",
+        "agents/settings_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.12
+    },
+    {
+      "id": "SEQ-04",
+      "category": "Structural Sequence",
+      "query": "where does the code call duckAudioStream before any playback?",
+      "expected": [
+        "agents/media_agent.js"
+      ],
+      "retrieved": [
+        "agents/media_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.09
+    },
+    {
+      "id": "SEQ-05",
+      "category": "Structural Sequence",
+      "query": "which agents call scanNearbyDevices before pairDevice?",
+      "expected": [
+        "agents/settings_agent.js"
+      ],
+      "retrieved": [
+        "agents/settings_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.08
+    },
+    {
+      "id": "USE-01",
+      "category": "Usage & Deeplink",
+      "query": "where is the Bluetooth-settings deeplink used?",
+      "expected": [
+        "tools/device_tool.js",
+        "agents/settings_agent.js",
+        "config/deeplinks.js"
+      ],
+      "retrieved": [
+        "tools/device_tool.js",
+        "tools/bluetooth_tool.js",
+        "tools/bluetooth_tool.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 1.73
+    },
+    {
+      "id": "USE-02",
+      "category": "Usage & Deeplink",
+      "query": "find references to NAVIGATION_NAVIGATE_HOME deeplink",
+      "expected": [
+        "agents/navigation_agent.js",
+        "config/deeplinks.js"
+      ],
+      "retrieved": [
+        "config/deeplinks.js",
+        "config/deeplinks.js",
+        "config/deeplinks.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.52
+    },
+    {
+      "id": "USE-03",
+      "category": "Usage & Deeplink",
+      "query": "where is BATTERY_SAVER_SETTINGS deeplink referenced?",
+      "expected": [
+        "agents/system_agent.js",
+        "config/deeplinks.js"
+      ],
+      "retrieved": [
+        "config/deeplinks.js",
+        "config/deeplinks.js",
+        "config/deeplinks.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.58
+    },
+    {
+      "id": "USE-04",
+      "category": "Usage & Deeplink",
+      "query": "where is launchDeeplink method defined?",
+      "expected": [
+        "tools/device_tool.js"
+      ],
+      "retrieved": [
+        "tools/device_tool.js",
+        "agents/media_agent.js",
+        "agents/navigation_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.75
+    },
+    {
+      "id": "USE-05",
+      "category": "Usage & Deeplink",
+      "query": "find usage of BLUETOOTH_PAIRING_DIALOG deeplink",
+      "expected": [
+        "agents/settings_agent.js",
+        "config/deeplinks.js"
+      ],
+      "retrieved": [
+        "config/deeplinks.js",
+        "config/deeplinks.js",
+        "agents/settings_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.44
+    },
+    {
+      "id": "SEM-01",
+      "category": "Conceptual Semantic",
+      "query": "where does the assistant handle media playback interruptions?",
+      "expected": [
+        "tools/audio_tool.js",
+        "agents/media_agent.js"
+      ],
+      "retrieved": [
+        "agents/media_agent.js",
+        "tools/audio_tool.js",
+        "agents/media_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 1.09
+    },
+    {
+      "id": "SEM-02",
+      "category": "Conceptual Semantic",
+      "query": "how are smart lights toggled in IoT devices?",
+      "expected": [
+        "agents/smarthome_agent.js"
+      ],
+      "retrieved": [
+        "agents/smarthome_agent.js",
+        "agents/smarthome_agent.js",
+        "config/constants.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.9
+    },
+    {
+      "id": "SEM-03",
+      "category": "Conceptual Semantic",
+      "query": "where is speech recognition timeout configured?",
+      "expected": [
+        "config/constants.js"
+      ],
+      "retrieved": [
+        "agents/media_agent.js",
+        "agents/media_agent.js",
+        "tools/bluetooth_tool.js"
+      ],
+      "p@1": 0.0,
+      "recall": 0.0,
+      "latency_ms": 0.73
+    },
+    {
+      "id": "SEM-04",
+      "category": "Conceptual Semantic",
+      "query": "how does the system optimize battery consumption when low?",
+      "expected": [
+        "agents/system_agent.js"
+      ],
+      "retrieved": [
+        "agents/system_agent.js",
+        "agents/system_agent.js",
+        "agents/voice_dispatcher.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.93
+    },
+    {
+      "id": "SEM-05",
+      "category": "Conceptual Semantic",
+      "query": "where are incoming voice speech intents routed to agents?",
+      "expected": [
+        "agents/voice_dispatcher.js"
+      ],
+      "retrieved": [
+        "agents/voice_dispatcher.js",
+        "agents/voice_dispatcher.js",
+        "agents/media_agent.js"
+      ],
+      "p@1": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.87
+    }
+  ]
+}

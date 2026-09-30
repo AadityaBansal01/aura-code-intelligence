@@ -1,0 +1,10 @@
+{
+  "name": "galaxy-voice-assistant-core",
+  "version": "3.4.0",
+  "description": "Enterprise Voice Assistant Multi-Agent Architecture for Smart Devices",
+  "main": "agents/voice_dispatcher.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "dependencies": {}
+}

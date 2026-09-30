@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  aura-code:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: aura_code_intelligence
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONPATH=/app
+      - PORT=8000
+    volumes:
+      - ./sample_voice_assistant:/app/sample_voice_assistant:ro
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
