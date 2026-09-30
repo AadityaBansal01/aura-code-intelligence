@@ -243,20 +243,30 @@ aura-code-intelligence/
 
 ## 📋 Hackathon Deliverables Checklist
 
-- [x] **Working Prototype Code:** Public / shared repository with full source.
+- [x] **Working Prototype Code:** Public repository with full source (`https://github.com/AadityaBansal01/aura-code-intelligence`).
 - [x] **Reproducible Setup:** Verified via `./run.sh` and `docker compose up --build`.
 - [x] **100% CPU Execution:** Strictly zero GPU dependencies and zero cloud API keys.
 - [x] **Benchmark Report:** Precision@1 (93.3%), Recall (93.3%), Latency (0.64ms on CPU).
 - [x] **Demo Video Script:** 5-minute minute-by-minute script in [`submission/DEMO_VIDEO_SCRIPT.md`](submission/DEMO_VIDEO_SCRIPT.md).
-- [x] **Presentation Deck:** Completed 12 slides in [`submission/CollegeName_TeamName_Submission.pptx`](submission/CollegeName_TeamName_Submission.pptx).
-- [x] **AI Disclosure Form:** Completed in [`submission/LangAI3.0_AI_Disclosure.docx`](submission/LangAI3.0_AI_Disclosure.docx).
+- [x] **Presentation Deck:** Completed 12 slides in [`Thapar_TeamAURA_Submission.pptx`](Thapar_TeamAURA_Submission.pptx) and [`submission/Thapar_TeamAURA_Submission.pptx`](submission/Thapar_TeamAURA_Submission.pptx).
+- [x] **AI Disclosure Form:** Completed in [`LangAI3.0_AI_Disclosure.docx`](LangAI3.0_AI_Disclosure.docx) and [`submission/LangAI3.0_AI_Disclosure.docx`](submission/LangAI3.0_AI_Disclosure.docx).
+- [x] **Dependencies File:** Provided as both [`requirements.txt`](requirements.txt) and [`requirement.txt`](requirement.txt).
 - [x] **Git Release Tag:** Committed and tagged with `PRISM_GENAI_HACKATHON_Y2026`.
 
 ---
 
-## 👥 Team Details
+## 👥 Team & Institution Details
 
-**Team AURA** (Samsung PRISM Hackathon 3.0 — Theme 01)  
-- **Aaditya Bansal** — Team Lead & Systems Architect  
-- **Team Members** — Program Analysis, Fullstack & Benchmark Engineers  
-*Partner Institute: Indian Institute of Technology / BITS Pilani*
+**Team Name:** Team AURA  
+**Hackathon Theme:** Theme 01 - Agentic Code Intelligence (Samsung PRISM GenAI Hackathon 3.0, 2026–27)  
+**Institution:** Thapar Institute of Engineering and Technology (TIET), Patiala  
+- **Aaditya Bansal** — Team Lead & Systems Architect (`aadityabansal740@gmail.com` | GitHub: [@AadityaBansal01](https://github.com/AadityaBansal01))  
+- **Team AURA Engineers** — Program Analysis, AST Graph, & Benchmark Verification  
+
+---
+
+## 🎥 5-Minute Demo Video Walkthrough
+
+- **Detailed Minute-by-Minute Script & Storyboard:** [`submission/DEMO_VIDEO_SCRIPT.md`](submission/DEMO_VIDEO_SCRIPT.md)
+- **Demo Video Access:** [Watch 5-Minute Technical Demo on Google Drive / YouTube](https://drive.google.com/drive/folders/1g7H44ecwxfv7TPTFvQU14duMuGexMIQU) *(Recorded following the exact script in `submission/DEMO_VIDEO_SCRIPT.md`)*
+

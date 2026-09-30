@@ -29,12 +29,12 @@ def generate_presentation():
         ("Theme ID -", "Theme 01: Agentic Code Intelligence"),
         ("Project Name -", "AURA-Code: Neuro-Symbolic Agentic Code Navigator"),
         ("Team Name -", "Team AURA"),
-        ("College Name -", "Samsung PRISM Partner Institute"),
-        ("Member Name & Email 1-", "Aaditya Bansal (Team Lead & Systems Architect - lead@auracode.ai)"),
+        ("College Name -", "Thapar Institute of Engineering and Technology (TIET), Patiala"),
+        ("Member Name & Email 1-", "Aaditya Bansal (Team Lead & Systems Architect - aadityabansal740@gmail.com)"),
         ("Member Name & Email 2-", "Core Developer 2 (Program Analysis & AST Specialist)"),
         ("Member Name & Email 3-", "Core Developer 3 (Fullstack & Visualization Engineer)"),
         ("Member Name & Email 4-", "Core Developer 4 (Verification & Benchmark Engineer)"),
-        ("Submission Github link -", "https://github.com/aadityabansal/aura-code-intelligence")
+        ("Submission Github link -", "https://github.com/AadityaBansal01/aura-code-intelligence")
     ]
     for label, val in details:
         p = tf1.add_paragraph()
@@ -188,9 +188,14 @@ def generate_presentation():
         ra.font.size = Pt(13)
         ra.font.color.rgb = RGBColor(16, 185, 129)
 
-    out_path = os.path.join(OUTPUT_DIR, "CollegeName_TeamName_Submission.pptx")
-    prs.save(out_path)
-    print(f"[+] Saved complete PPTX to: {out_path}")
+    out_path_thapar = os.path.join(OUTPUT_DIR, "Thapar_TeamAURA_Submission.pptx")
+    out_path_alias = os.path.join(OUTPUT_DIR, "CollegeName_TeamName_Submission.pptx")
+    root_path_thapar = os.path.abspath(os.path.join(OUTPUT_DIR, "..", "Thapar_TeamAURA_Submission.pptx"))
+    
+    prs.save(out_path_thapar)
+    prs.save(out_path_alias)
+    prs.save(root_path_thapar)
+    print(f"[+] Saved PPTX to: {out_path_thapar} and {root_path_thapar}")
 
 
 def generate_disclosure():
@@ -201,7 +206,7 @@ def generate_disclosure():
     replacements = {
         "Team Name: _______________": "Team Name: Team AURA",
         "Project / Product Name: ____________________": "Project / Product Name: AURA-Code (Agentic Code Intelligence & AST-Graph Navigator)",
-        "Organization / Institution (if any): ____________________": "Organization / Institution (if any): Samsung PRISM Partner Institute",
+        "Organization / Institution (if any): ____________________": "Organization / Institution (if any): Thapar Institute of Engineering and Technology (TIET), Patiala",
         "Submission Date: _______________________": "Submission Date: October 2026",
         "Did your team use any Artificial Intelligence (AI) in developing this project?  Yes / No": "Did your team use any Artificial Intelligence (AI) in developing this project?  YES",
         "_______________________________": "AI was leveraged as an interactive pair-programming and design accelerator.",
@@ -242,8 +247,10 @@ def generate_disclosure():
         p_feat.add_run(f"  Description: {desc}\n")
 
     out_path = os.path.join(OUTPUT_DIR, "LangAI3.0_AI_Disclosure.docx")
+    root_path = os.path.abspath(os.path.join(OUTPUT_DIR, "..", "LangAI3.0_AI_Disclosure.docx"))
     doc.save(out_path)
-    print(f"[+] Saved complete DOCX to: {out_path}")
+    doc.save(root_path)
+    print(f"[+] Saved complete DOCX to: {out_path} and {root_path}")
 
 if __name__ == '__main__':
     generate_presentation()
