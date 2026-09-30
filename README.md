@@ -13,7 +13,7 @@
 |---|---|---|
 | 🎬 **Demo Video** | [**Watch 5-Min Video on Google Drive**](https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing) | Full technical walkthrough & product demonstration |
 | 🌐 **Live Web Application** | [**aura-code-intelligence.onrender.com**](https://aura-code-intelligence.onrender.com) | 24/7 cloud deployment (zero setup needed) |
-| 📑 **Presentation (PDF)** | [**View Slides on GitHub (PDF)**](Thapar_TeamAURA_Submission.pdf) | **Click to view all 12 slides directly in GitHub's viewer** |
+| 📑 **Presentation (PDF)** | [**View Slides on GitHub (PDF)**](submission/Thapar_TeamAURA_Submission.pdf) | **Click to view all 12 slides directly in GitHub's viewer** |
 | 📊 **Presentation (PPTX)** | [**Download PowerPoint (.pptx)**](submission/Thapar_TeamAURA_Submission.pptx) | Original editable PowerPoint submission deck |
 | 📄 **AI Usage Disclosure** | [**View Disclosure Document (.docx)**](submission/LangAI3.0_AI_Disclosure.docx) | Official signed AI Usage Disclosure Form |
 | 💻 **Local One-Command Run** | `bash run.sh` | Runs test suite and starts local server at `http://localhost:8000` |
@@ -239,8 +239,8 @@ aura-code-intelligence/
 │   ├── config/                    # deeplinks.js, constants.js
 │   └── test.js                    # Node.js end-to-end integration test
 ├── submission/
-│   ├── Thapar_TeamAURA_Submission.pptx      # 12-slide official presentation
-│   ├── CollegeName_TeamName_Submission.pptx # Official submission presentation
+│   ├── Thapar_TeamAURA_Submission.pdf       # 12-slide presentation (instant viewer on GitHub)
+│   ├── Thapar_TeamAURA_Submission.pptx      # 12-slide presentation (PowerPoint)
 │   └── LangAI3.0_AI_Disclosure.docx         # Official AI Usage Disclosure Form
 ├── tests/
 │   └── test_engine.py             # 18 automated unit tests (Pytest)
@@ -264,8 +264,8 @@ aura-code-intelligence/
 - [x] **100% CPU Execution:** Strictly zero GPU dependencies and zero cloud API keys.
 - [x] **Benchmark Report:** Precision@1 (93.3%), Recall (93.3%), Latency (0.64ms on CPU).
 - [x] **5-Minute Technical Demo Video:** [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing).
-- [x] **Presentation Deck:** Completed 12 slides in [`Thapar_TeamAURA_Submission.pptx`](Thapar_TeamAURA_Submission.pptx) and [`submission/Thapar_TeamAURA_Submission.pptx`](submission/Thapar_TeamAURA_Submission.pptx).
-- [x] **AI Disclosure Form:** Completed in [`LangAI3.0_AI_Disclosure.docx`](LangAI3.0_AI_Disclosure.docx) and [`submission/LangAI3.0_AI_Disclosure.docx`](submission/LangAI3.0_AI_Disclosure.docx).
+- [x] **Presentation Deck:** Completed 12 slides in [`submission/Thapar_TeamAURA_Submission.pdf`](submission/Thapar_TeamAURA_Submission.pdf) (PDF viewer) and [`submission/Thapar_TeamAURA_Submission.pptx`](submission/Thapar_TeamAURA_Submission.pptx) (PPTX).
+- [x] **AI Disclosure Form:** Completed in [`submission/LangAI3.0_AI_Disclosure.docx`](submission/LangAI3.0_AI_Disclosure.docx).
 - [x] **Dependencies File:** Provided as both [`requirements.txt`](requirements.txt) and [`requirement.txt`](requirement.txt).
 - [x] **Git Release Tag:** Committed and tagged with `PRISM_GENAI_HACKATHON_Y2026`.
 
