@@ -230,9 +230,9 @@ aura-code-intelligence/
 │   ├── config/                    # deeplinks.js, constants.js
 │   └── test.js                    # Node.js end-to-end integration test
 ├── submission/
-│   ├── CollegeName_TeamName_Submission.pptx # 12-slide official presentation
-│   ├── LangAI3.0_AI_Disclosure.docx         # Official AI Usage Disclosure Form
-│   └── DEMO_VIDEO_SCRIPT.md                 # 5-minute minute-by-minute demo script
+│   ├── Thapar_TeamAURA_Submission.pptx      # 12-slide official presentation
+│   ├── CollegeName_TeamName_Submission.pptx # Official submission presentation
+│   └── LangAI3.0_AI_Disclosure.docx         # Official AI Usage Disclosure Form
 ├── tests/
 │   └── test_engine.py             # 18 automated unit tests (Pytest)
 ├── ui/
@@ -254,7 +254,7 @@ aura-code-intelligence/
 - [x] **Reproducible Setup:** Verified via `./run.sh` and `docker compose up --build`.
 - [x] **100% CPU Execution:** Strictly zero GPU dependencies and zero cloud API keys.
 - [x] **Benchmark Report:** Precision@1 (93.3%), Recall (93.3%), Latency (0.64ms on CPU).
-- [x] **Demo Video Script:** 5-minute minute-by-minute script in [`submission/DEMO_VIDEO_SCRIPT.md`](submission/DEMO_VIDEO_SCRIPT.md).
+- [x] **5-Minute Technical Demo Video:** [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing).
 - [x] **Presentation Deck:** Completed 12 slides in [`Thapar_TeamAURA_Submission.pptx`](Thapar_TeamAURA_Submission.pptx) and [`submission/Thapar_TeamAURA_Submission.pptx`](submission/Thapar_TeamAURA_Submission.pptx).
 - [x] **AI Disclosure Form:** Completed in [`LangAI3.0_AI_Disclosure.docx`](LangAI3.0_AI_Disclosure.docx) and [`submission/LangAI3.0_AI_Disclosure.docx`](submission/LangAI3.0_AI_Disclosure.docx).
 - [x] **Dependencies File:** Provided as both [`requirements.txt`](requirements.txt) and [`requirement.txt`](requirement.txt).
@@ -277,5 +277,5 @@ aura-code-intelligence/
 ## 🎥 5-Minute Demo Video Walkthrough
 
 - **Watch Technical Demo:** [Watch Demo Video on Google Drive](https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing)
-- **Detailed Minute-by-Minute Script & Storyboard:** [`submission/DEMO_VIDEO_SCRIPT.md`](submission/DEMO_VIDEO_SCRIPT.md)
+- **Live Interactive Deployment:** [Open Web Application on Render](https://aura-code-intelligence.onrender.com)
 
