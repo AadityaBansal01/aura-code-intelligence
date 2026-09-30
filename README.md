@@ -1,14 +1,23 @@
 # AURA-Code: Agentic Code Intelligence & AST-Graph Navigator
 
-> 🎬 **Demo Video:** https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing  
-> 🌐 **Live Demo:** https://aura-code-intelligence.onrender.com  
-> 📊 **API Docs:** https://aura-code-intelligence.onrender.com/docs  
-> 💻 **Local:** `bash run.sh` → http://localhost:8000
-
-
-### Samsung PRISM GenAI Hackathon 3.0 (2026–27) | Theme 01: Agentic Code Intelligence
-**Release Tag:** `PRISM_GENAI_HACKATHON_Y2026`  
+### 🏆 Samsung PRISM GenAI Hackathon 3.0 (2026–27) | Theme 01: Agentic Code Intelligence
+**Team Name:** Team AURA | **Institution:** Thapar Institute of Engineering and Technology (TIET), Patiala  
+**Official Release Tag:** [`PRISM_GENAI_HACKATHON_Y2026`](https://github.com/AadityaBansal01/aura-code-intelligence/releases/tag/PRISM_GENAI_HACKATHON_Y2026)  
 **Hardware Profile:** 100% CPU Optimized | Zero GPU Dependency | Pure Local Inference
+
+---
+
+### 🚀 Quick Access & Official Deliverables
+
+| Deliverable | Access Link | Description |
+|---|---|---|
+| 🎬 **Demo Video** | [**Watch 5-Min Video on Google Drive**](https://drive.google.com/file/d/1j77d7jp-RPdyWSwsnp5toc4UTgHyWFc1/view?usp=sharing) | Full technical walkthrough & product demonstration |
+| 🌐 **Live Web Application** | [**aura-code-intelligence.onrender.com**](https://aura-code-intelligence.onrender.com) | 24/7 cloud deployment (zero setup needed) |
+| 📑 **Presentation (PDF)** | [**View Slides on GitHub (PDF)**](Thapar_TeamAURA_Submission.pdf) | **Click to view all 12 slides directly in GitHub's viewer** |
+| 📊 **Presentation (PPTX)** | [**Download PowerPoint (.pptx)**](submission/Thapar_TeamAURA_Submission.pptx) | Original editable PowerPoint submission deck |
+| 📄 **AI Usage Disclosure** | [**View Disclosure Document (.docx)**](submission/LangAI3.0_AI_Disclosure.docx) | Official signed AI Usage Disclosure Form |
+| 💻 **Local One-Command Run** | `bash run.sh` | Runs test suite and starts local server at `http://localhost:8000` |
+| 📊 **Interactive API Docs** | [**FastAPI Swagger UI**](https://aura-code-intelligence.onrender.com/docs) | Auto-generated OpenAPI interactive endpoints |
 
 [![Engine Tests](https://img.shields.io/badge/Pytest-18%2F18%20Passed-brightgreen.svg)](tests/)
 [![Precision@1](https://img.shields.io/badge/Precision%401-93.3%25-blue.svg)](engine/benchmark_results.json)
